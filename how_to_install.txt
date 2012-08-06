@@ -1,0 +1,10 @@
+m4:
+	sudo apt-get install m4
+gmtp:
+	./configure && sudo make install
+pbc:
+	./configure && sudo make install
+
+last but not least, edit 
+sudo pico /etc/ld.so.conf (edit or touch)
+sudo ldconfig
